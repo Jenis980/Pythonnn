@@ -1,6 +1,10 @@
 # IGNORE EVERYTHING inside device-specific folders
 #linux-device/*
+<<<<<<< HEAD
 #windows-device/*
+=======
+#w#indows-device/*
+>>>>>>> c7875dcaa7eb51bab44305f4e0bf3c46bb2e2cea
 
 # BUT DO NOT IGNORE the folders themselves ( so they exist on both machines)
 #!linux-device/
