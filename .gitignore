@@ -1,27 +1,27 @@
 # IGNORE EVERYTHING inside device-specific folders
-linux-device/*
-windows-device/*
+#linux-device/*
+#windows-device/*
 
 # BUT DO NOT IGNORE the folders themselves ( so they exist on both machines)
-!linux-device/
-!windows-device/
+#!linux-device/
+#!windows-device/
 
 # --- COMMON FILES TO IGNORE (Optional but recommended) ---
 # Python bytecode and virtual environments
-pycache/
-*.pyc
-*.pyo
-.python-version
-venv/
-env/
+#pycache/
+#*.pyc
+#*.pyo
+#.python-version
+#venv/
+#env/
 
 # IDE and editor settings (e.g., VSCode, PyCharm)
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+#.vscode/
+#.idea/
+#*.swp
+#*.swo
+#*~
 
 # System files (e.g., on Windows)
-.DS_Store
-Thumbs.db
+#.DS_Store
+#Thumbs.db
