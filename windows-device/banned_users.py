@@ -5,7 +5,7 @@ if user not in banned_users:
   print(user.title()+", you an post a response if you wish.")
 
 # check if the person is aged to vote
-age = 18
+age = 18  
 if age >= 18:
   print("Your are eligible to vote.")
   print("Have you registered to vote yet?")

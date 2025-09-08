@@ -25,4 +25,4 @@ food_item = ('rice', 'curd',' salad', 'pepsi', 'pineapple')
 print("\nrevised food items in buffet")
 for food in food_item:
   print(food)
-  print("again",food)
+  

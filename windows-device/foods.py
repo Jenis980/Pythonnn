@@ -14,4 +14,4 @@ print(friend_foods)
 print("\nMy friend's favorite foods are: \n")
 for food in friend_foods:
   print(food)
-print("\nThis are the food he like!")
+print("\nThis are the food he likes!")
